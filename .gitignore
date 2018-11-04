@@ -1,2 +1,2 @@
-salt/users/files/demo.id_rsa
-salt/users/files/jenkins.id_rsa
+salt/users/files/demo_id
+salt/users/files/jenkins_id
