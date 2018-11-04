@@ -1,0 +1,3 @@
+Host *
+	Port 22
+	User demo
