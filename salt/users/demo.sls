@@ -17,7 +17,7 @@ demo:
 
 /home/demo/.ssh/authorized_keys:
   file.managed:
-    - source: salt://users/files/demo.pub
+    - source: salt://users/files/demo_id.pub
     - user: demo
     - group: demo
     - mode : 640

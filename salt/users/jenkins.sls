@@ -13,7 +13,7 @@ jenkins:
 
 /home/jenkins/.ssh/authorized_keys:
   file.managed:
-    - source: salt://users/files/jenkins.pub
+    - source: salt://users/files/jenkins_id.pub
     - user: jenkins
     - group: jenkins
     - mode : 640
