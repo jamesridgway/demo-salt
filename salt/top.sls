@@ -3,4 +3,4 @@ base:
     - common
   'jenkins-slave*':
     - users.jenkins
-    - java8
+    - openjdk8
